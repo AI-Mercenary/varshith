@@ -1,4 +1,4 @@
-```mermaid
+
 flowchart TD
     A[Start: Initialize State] -->|Settings| B[Screen Monitoring]
     A -->|Settings| C[Audio Processing]
@@ -11,4 +11,4 @@ flowchart TD
     G -->|Loop| B
     G -->|Loop| C
     G --> H[End: Stop App]
-```
+
